@@ -1,0 +1,176 @@
+.header{
+    background-color: #bd50d1;
+}
+.main_banner {
+    width: 100%;
+    height: 320px;
+    background-color: #bd50d1;
+}
+.w_1400 {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+.go_page {
+    display: flex;
+    padding-top: 30px;
+    gap: 10px;
+}
+.go_page > a > img {
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+}
+.go_page > p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+.go_page > a{
+    font-size: 14px;
+}
+.main_banner_date_txt {
+    font-size: 45px;
+    margin-top: 70px;
+    color: #fff;
+}
+.main_banner_date_txt > span {
+    font-weight: 900;
+}
+.share {
+    display: flex;
+    align-items: center
+}
+.share > img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.share_pan_box {
+    width: 147px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 26px;
+    margin-left: 30px;
+    display: none;
+}
+.share_pan_box > ul {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    padding: 3px;
+    position: relative;
+}
+.share_pan_corner > img{
+    position: absolute;
+    top: 2px;
+    left: -20px;
+}
+.share_pan_box > ul > li > a > img {
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+}
+.main_banner_R_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main_banner_R_img > img {
+    width: 400px;
+    height: 320px;
+}
+.festival {
+    width: 100%;
+    margin-bottom: 70px;
+}
+.festival > ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 100px;
+}
+.festival > ul > li > a {
+    font-size: 22px;
+    font-weight: 900;
+    color: #000;
+}
+.festival > ul > li > a:hover {
+    color: #bd50d1;
+}
+.festival_banner {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.festival_banner > img {
+    width: 100%;
+    height: 100%;
+}
+.festival_pan_box {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.event_w_1400 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.event_w_1400 > span {
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+}
+.festival_ul1 {
+    width: 670px;
+    height: 400px;
+}
+.festival_ul1 > img {
+    width: 100%;
+    height: 100%;
+}
+.festival_item > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.festival_item > ul > li {
+    width: calc((100% - (50px)) / 2);
+    margin-top: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.festival_ul1_span {
+    border: 2px #fff solid;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+.festival_ul1_span > span {
+    font-weight: 900;
+    font-size: 19px;
+}
+.festival_item > ul > li:hover .festival_ul1_span {
+    background-color: #bd50d1;
+    color: #fff;
+    cursor: pointer;
+}
+.festival_banner2 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 100px;
+}

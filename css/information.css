@@ -1,0 +1,184 @@
+.header{
+    background-color: #00939b;
+} 
+.main_banner {
+    width: 100%;
+    height: 320px;
+    background-color: #00939b;
+}
+.w_1400 {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+.go_page {
+    display: flex;
+    padding-top: 30px;
+    gap: 10px;
+}
+.go_page > a > img {
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+}
+.go_page > p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+.go_page > a{
+    font-size: 14px;
+}
+.main_banner_date_txt {
+    font-size: 45px;
+    margin-top: 70px;
+    color: #fff;
+}
+.main_banner_date_txt > span {
+    font-weight: 900;
+}
+.share {
+    display: flex;
+    align-items: center;
+}
+.share > img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.share_pan_box {
+    width: 147px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 26px;
+    margin-left: 30px;
+    display: none;
+}
+.share_pan_box > ul {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    padding: 3px;
+    position: relative;
+}
+.share_pan_corner > img{
+    position: absolute;
+    top: 2px;
+    left: -20px;
+}
+.share_pan_box > ul > li > a > img {
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+}
+.main_banner_R_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main_banner_R_img > img {
+    width: 549px;
+    height: 320px;
+}
+.container {
+    margin-bottom: 100px;
+}
+HTML CSS JSResult Skip Results Iframe
+EDIT ON
+.rap {
+    max-width: 820px;
+    padding: 0 1.4rem;
+    margin-top: .3rem;
+}
+.dateHead {
+    margin-bottom: .4rem;
+}
+.dateHead div {
+    background: #00939b;
+    color: #fff;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+}
+.grid div {
+    padding: .6rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.dateBoard div {
+    color: #222;
+    font-weight: bold;
+    min-height: 5rem;
+    padding: .6rem .8rem;
+    border-radius: .6rem;
+    border: 1px solid #eee;
+}
+.noColor {
+    background: #eee;
+}
+.date_header {
+    display: flex;
+    justify-content: space-around;
+    padding: 39px;
+    margin-top: 50px;
+}
+.btn {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #000;
+    border-width: 3px 3px 0 0;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.prevDay {
+    transform: rotate(-135deg);
+}
+.nextDay {
+    transform: rotate(45deg);
+}
+.dateBoard div p {
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 21px;
+    font-size: 18px;
+    color: #00939b
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Pretendard;
+}
+.go_att_per {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.go_att_per_same {
+    width: 200px;
+    height: 50px;
+    border: 1px #ddd solid;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 0 3.5px 0;
+    overflow: hidden;
+}
+.go_att_per_same > a {
+    width: 100%;
+    display: inline-block;
+    color: #000;
+    font-weight: 900;
+    font-size: 18px;
+}
+.go_att_per_same:hover a{
+    background-color: #00939b;
+    color: #fff;
+}

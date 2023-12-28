@@ -1,0 +1,116 @@
+.wrap {height: auto;}
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+.logo {
+    width: 127px;
+    height: 37px;
+    padding: 30px;
+    margin: 0 20px;
+}
+.header > ul {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 150px;
+    text-align: center;
+    line-height: 100px;
+}
+.header > ul > li {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.header > ul > li > a{
+    width: 166.89px;
+    display: inline-block;
+    color: #000;
+    font-weight: 900;
+}
+.header > ul > li > a:hover {
+    color: #fff;
+}
+.header_pan_box {
+    background-color: #ddd;
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    z-index: 88;
+    display: none;
+}
+.header_pan_ul_total {
+    position: absolute;
+    width: 100%;
+    height: 320px;
+    top: 100%;
+    left: 0;
+    z-index: 98;
+    border-right: 1px #cdc8c8 solid;
+    display: none;
+}
+.header_pan_ul1 {
+    border-left: 1px #cdc8c8 solid;;
+}
+.header_pan_ul_total > li {
+    height: 61px;
+}
+.header_ul_li_total:hover ul li a {color: #fff;}
+.header_pan_ul_total > li span {font-weight: 900;}
+
+.header_ul_li1 {
+    width: 100%;
+    height: 320px;
+}
+.header_ul_li1:hover .header_pan_ul_total {
+    width: 100%;
+    background-color: #00939b;
+    font-weight: 900;
+}
+.header_ul_li2:hover .header_pan_ul_total {
+    width: 100%;
+    background-color: #007aff;
+    font-weight: 900;
+}
+.header_ul_li3:hover .header_pan_ul_total {
+    width: 100%;
+    background-color: #bd50d1;
+    font-weight: 900;
+}
+.header_ul_li4:hover .header_pan_ul_total {
+    width: 100%;
+    background-color: #3ac16f;
+    font-weight: 900;
+}
+.header_ul_li5:hover .header_pan_ul_total {
+    width: 100%;
+    background-color: #ff7153;
+    font-weight: 900;
+}
+.header_ul_li6:hover .header_pan_ul_total {
+    width: 100%;
+    background-color: #f479aa;
+    font-weight: 900;
+}
+.header_ul_li7:hover .header_pan_ul_total {
+    width: 100%;
+    background-color: #ffb12a;
+    font-weight: 900;
+}
+.header_ul_li_total > a {
+    color: #000;
+    font-size: 18px;
+}
+.header_pan_ul_total > li > a{
+    color: #000;
+    font-size: 17px;
+}
+.header_pan_ul_total:hover li a {
+    color: #fff;
+} 
+@media screen and (min-width=1700px) {
+    
+}

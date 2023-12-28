@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/event.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="./js/jq-1.12.4.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/container.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/header_logo/서울랜드_로고.svg" alt="">
+                </a>
+            </div>
+            <ul class="header_ul">
+                <li class="header_ul_li1 header_ul_li_total">
+                    <a href="./information.html">이용정보</a>
+                    <ul class="header_pan_ul1 header_pan_ul_total">
+                        <li><span>이용정보</span></li>
+                        <li>
+                            <a href="./information.html">운영시간</a>
+                        </li>
+                        <li>
+                            <a href="#">공지사항</a>
+                        </li>
+                        <li>
+                            <a href="#">오시는길</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_ul_li2 header_ul_li_total">
+                    <a href="./fee.html">요금안내</a>
+                    <ul class="header_pan_ul2 header_pan_ul_total">
+                        <li><span>요금안내</span></li>
+                        <li>
+                            <a href="./fee.html">요금안내</a>
+                        </li>
+                        <li>
+                            <a href="#">할인&이벤트 요금</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_ul_li3 header_ul_li_total">
+                    <a href="./event.html">공연이벤트안내</a>
+                    <ul class="header_pan_ul3 header_pan_ul_total">
+                        <li><span>공연이벤트안내</span></li>
+                        <li>
+                            <a href="./event.html">연간 공연이벤트</a>
+                        </li>
+                        <li>
+                            <a href="#">공연이벤트소개</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_ul_li4 header_ul_li_total">
+                    <a href="./attraction.html">시설안내</a>
+                    <ul class="header_pan_ul4 header_pan_ul_total">
+                        <li><span>시설안내</span></li>
+                        <li>
+                            <a href="./attraction.html">어트랙션</a>
+                        </li>
+                        <li>
+                            <a href="#">음식점/상점</a>
+                        </li>
+                        <li>
+                            <a href="#">편의시설</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_ul_li5 header_ul_li_total">
+                    <a href="./customer.html">고객센터</a>
+                    <ul class="header_pan_ul5 header_pan_ul_total">
+                        <li><span>고객센터</span></li>
+                        <li>
+                            <a href="./customer.html">자주하는 질문</a>
+                        </li>
+                        <li>
+                            <a href="#">1:1문의</a>
+                        </li>
+                        <li>
+                            <a href="#">대기예약앱 안내</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_ul_li6 header_ul_li_total">
+                    <a href="./program.html">단체프로그램</a>
+                    <ul class="header_pan_ul6 header_pan_ul_total">
+                        <li><span>단체프로그램</span></li>
+                        <li>
+                            <a href="./program.html">학생단체</a>
+                        </li>
+                        <li>
+                            <a href="#">기업행사/장소대여</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_ul_li7 header_ul_li_total">
+                    <a href="./user_center.html">연간이용센터</a>
+                    <ul class="header_pan_ul7 header_pan_ul_total">
+                        <li><span>연간이용센터</span></li>
+                        <li>
+                            <a href="./user_center.html">연간이용권</a>
+                        </li>
+                        <li>
+                            <a href="#">둘모아 연간이용권</a>
+                        </li>
+                        <li>
+                            <a href="#">다모아 연간이용권</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+<!-- ----------------         판박스         -------------------- -->
+        <div class="header_pan_box"></div>
+
+<!-- ----------------        메인 베너        ---------------------- -->
+        <div class="main_banner">
+            <div class="w_1400">
+                <div class="go_page">
+                    <a href="./index.html">
+                        <img src="./img/information/home.png" alt="">
+                    </a>
+                    <p>></p>
+                    <a href="./event.html">공연이벤트안내</a>
+                    <p>></p>
+                    <a href="./event.html">연간 공연이벤트</a>
+                </div>
+                <div class="main_banner_date_txt">서울랜드 <span>연간공연이벤트</span>입니다.</div>
+                <div class="share">
+                    <img src="./img/information/share.png" alt="" onclick="snsClick()">
+                    <div class="share_pan_box">
+                        <ul>
+                            <li>
+                                <div class="share_pan_corner">
+                                    <img src="./img/information/panbox_corner.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img/information/kakaotalk.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img/information/facebook.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img/information/link.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main_banner_R_img">
+                    <img src="./img/event/event_main_banner.webp" alt=""> 
+                </div>
+            </div>
+        </div>
+        <div class="w_1400">
+            <div class="festival">
+                <ul>
+                    <li>
+                        <a href=".festival_banner">서울랜드 페스티벌</a>
+                    </li>
+                    <li>
+                        <a href=".festival_banner2">서울랜드 엔터테인먼트</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="festival_banner">
+            <div class="festival_pan_box"></div>
+            <img src="./img/event/event_banner1.webp" alt="">
+            <div class="event_w_1400">
+                <span>서울랜드 페스티벌</span>
+            </div>
+        </div>
+        <div class="w_1400">
+            <div class="festival_item">
+                <ul>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/festival_ul1.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>DON'T LET DADDY KNOW KOREA</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/festival_ul2.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>WORLD DJ FESTIVAL</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/festival_ul3.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>S20 : Songkran Music Festival</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/festival_ul4.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>MICRO SEOUL</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="festival_banner2">
+            <div class="festival_pan_box"></div>
+            <img src="./img/event/event_banner2.webp" alt="">
+            <div class="event_w_1400">
+                <span>서울랜드 엔터테인먼트</span>
+            </div>
+        </div>
+        <div class="w_1400">
+            <div class="festival_item">
+                <ul>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/ent_li1.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>로드쇼, 마스커레이드!</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/ent_li2.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>애니멀 킹덤</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/ent_li3.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>루나 피에스타</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/ent_li4.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>루나 레이저 판타지</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/ent_li5.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>루나 밴드</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="festival_ul1">
+                            <img src="./img/event/ent_li6.webp" alt="">
+                        </div>
+                        <div class="festival_ul1_span">
+                            <span>쿨-워터 타임!</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="w_1400">
+                <ul>
+                    <li>서울랜드</li>
+                    <li><span>개인정보처리방침</span></li>
+                    <li>이메일 무단 수집 거부</li>
+                    <li>인재 채용</li>
+                    <li>서울랜드 스폰서</li>
+                    <li>제휴문의</li>
+                </ul>
+                <div class="footer_img_txt">
+                    <div class="footer_logo">
+                        <a href="./index.html"><img src="./img/footer/footer_logo.png" alt=""></a>
+                    </div>
+                    <div class="place_txt">
+                        <span>13829 경기도 과천시 광명로 181 ㈜ 서울랜드 02-509-6000 138-81-04654   통신판매업 신고번호 : 과천 제 137호</span>
+                        <p>개인정보 관리책임자 : 마케팅팀 전형준 Webmaster@seoulland.co.kr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('.festival ul li a').click(function(){
+            // 태그의 기본 이벤트를 실행하지 않게 한다.
+            // a태그의 경우 화면 다 지우고 새로 로드 하는걸 안하게 한다
+            event.preventDefault(); 
+
+            let href = $(this).attr('href');
+
+            $('html, body').animate({
+                scrollTop: $(href).offset().top
+            }, 1000)
+        })
+        $(document).ready(function(){
+            $(".share > img").click(function(){
+                $('.share_pan_box').slideToggle(100)
+            })
+        })
+    </script>
+</body>
+</html>

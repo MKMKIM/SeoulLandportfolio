@@ -630,7 +630,15 @@
 .info_pan_box > a >img {
     width: 100%;
     height: 100%;
+    display: none;
+
+    position: absolute;
+    left: 0;
+    top: 0;
 }
+
+
+/* .info_pan_box > a >img:first-child { display: block;} */
 .per_txt > img {
     position: absolute;
     top: 100px;
